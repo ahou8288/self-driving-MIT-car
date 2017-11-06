@@ -1,83 +1,13 @@
-# README #
+# Captsone project USYD
 
-This repository includes all the software and documentation required for the University of Sydney branch of the MIT Car Race Challenge.  Completed under the CAPSTONE project for students doing INFO3600 (1) or COMP3615 (2).
+This repository contains code from the captone project for the final year of my degree.
 
-# Slack #
+## Project Goal
 
-[usyd-mitracecarcomp.slack.com](https://usyd-mitracecarcomp.slack.com)
+In this project the goal is to use the MIT car and Donkey car hardware to build a self driving car.
 
-# Layout #
-## docs ##
+During this project I worked on both the software and hardware development of the car. My role in the project had a particular focus on developing and training the Neural Network we used for navigation and integrating it with the car.
 
-* datasheets: contains all the information about the parts that are used on the RACECAR.
-
-* manuals: contains instruction manuals for the Jetson, VESC and other devices.
-
-
-## mit-racecar ##
-
-All the pre-written code written by the MIT 6.141 class.  This is here as a copy for everyone to play with and hack at.  This repository only contains the sub-repositories that were useful to this project.
-
-* hardware: all the 3D printing templates for the MIT RACECAR and the configuration files (.xml) for the VESC.
-
-* racecar: respository that has control scripts for the MIT RACECAR.
-
-* racecar-simulator: as stated.
-
-* vesc: contains drivers and software to make the VESC work with the MIT RACECAR.
-
-
-## wdriver ##
-
-Special wireless / bluetooth driver for communicating between an RPi and Jetson boards.  This creates an air gap between the two devices for safety.
-
-
-# Hardware List #
-
-**Computer**
-
-Jetson TX2 Developer Kit
-
-Raspberry Pi Model B 3
-
-
-**Sensors**
-
-LIDAR (Scanse Sweep) from SparkFun
-
-Stereo Vision Camera (Stereo Labs Zed)
-
-Vision Camera (FLIR Blackfly 2.3MP)
-
-
-**Motors**
-
-FOCBOX VESC-X Motor Controller
-
-Velineon 3500 Brushless Motor
-
-
-# BLDC Tool #
-
-This is a tool for uploading firmware and configurations to the VESC.  It is avaiable for both Windows, OSX and Linux.
-
-## Linux ##
-
-```
-git clone https://github.com/jetsonhacks/installBLDC.git
-```
-
-## Windows ##
-
-Download the executable from: 
-
-http://www.enertionboards.com/new-focbox-speed-controller/focbox-bldc-tool-win/
-
-Also avaiable temporarily here (on Google Drive):
-
-https://drive.google.com/file/d/0B0OrXzyTLfIiQTRNbFh4X3FLMDA/view?usp=sharing
-
-# Assistance #
-If you require assistance with this repository, please contact Cian Byrne (@wallarug) via email:  cbyr2401@uni.sydney.edu.au
-
-Racecar backwards is Racecar
+**Links;**
+* [Donkey Car](https://github.com/wroscoe/donkey)
+* [MIT Car](https://github.com/mit-racecar/)
