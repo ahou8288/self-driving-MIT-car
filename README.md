@@ -15,7 +15,7 @@ During this project I worked on both the software and hardware development of th
 ## Photos
 
 MIT car with Jetson board and stereo camero mounted.
-!(MIT car with Jetson board and stereo camero mounted)[./docs/car.jpg]
+![MIT car with Jetson board and stereo camero mounted](./docs/car.jpg)
 
 Capturing training data for the neural network. The controller controls the car and collects labelled training data.
-!(Training data)[./docs/training.jpg]
+![Training data](./docs/training.jpg)
